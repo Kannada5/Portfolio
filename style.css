@@ -398,3 +398,15 @@ main {
   object-fit: contain; /* Ensure the image fits within the container */
   object-position: center; /* Center the image */
 }
+/* Adjusting the card layout to be vertical */
+.tab-pane .row {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.tab-pane .col-md-4 {
+  width: 100%; /* Make each card take full width */
+  max-width: 600px; /* Optional: Limit the maximum width of the cards */
+  margin-bottom: 20px; /* Add some space between cards */
+}
